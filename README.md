@@ -11,6 +11,8 @@ root        /var/www/projects/EXAMPLE;
 access_log  /var/www/projects/logs/EXAMPLE-access.log;
 error_log   /var/www/projects/logs/EXAMPLE-error.log;
 ```
+put your project source code under src folder
+
 
 make sure to add the following line in your `/etc/hosts` file on Linux/Mac or `C:\Windows\System32\Drivers\etc\hosts` on WIndows
 ```
