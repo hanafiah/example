@@ -6,7 +6,7 @@ This example shows you how to set nginx.conf for your project's server block
 Change the following line on nginx.conf for your project.
 ```
 server_name EXAMPLE.local;
-root        /var/www/projects/EXAMPLE;
+root        /var/www/projects/EXAMPLE/src;
     
 access_log  /var/www/projects/logs/EXAMPLE-access.log;
 error_log   /var/www/projects/logs/EXAMPLE-error.log;
